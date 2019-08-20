@@ -10,24 +10,24 @@ package unit2;
  */
 public class Test01 {
     /*
-     * 1.´´½¨Ò»¸öÀà£¬Ëü°üº¬Ò»¸öintÓòºÍÒ»¸öcharÓò£¬ËûÃÇ¶¼Ã»ÓĞ±»³õÊ¼»¯£¬½«ËûÃÇµÄÖµ´òÓ¡³öÀ´£¬ÒÔÑéÖ¤JavaÖ´ĞĞÁËÄ¬ÈÏ³õÊ¼»¯£»
+     * 1.åˆ›å»ºä¸€ä¸ªç±»ï¼Œå®ƒåŒ…å«ä¸€ä¸ªintåŸŸå’Œä¸€ä¸ªcharåŸŸï¼Œä»–ä»¬éƒ½æ²¡æœ‰è¢«åˆå§‹åŒ–ï¼Œå°†ä»–ä»¬çš„å€¼æ‰“å°å‡ºæ¥ï¼Œä»¥éªŒè¯Javaæ‰§è¡Œäº†é»˜è®¤åˆå§‹åŒ–ï¼›
      * */
 
    /* public static void main(String[] args) {
         int i ;
         char j  ;
-        *//*System.out.println("intÀàĞÍµÄÄ¬ÈÏÖµÊÇ"+i+"charÀàĞÍµÄÄ¬ÈÏÖµÊÇ"+j);*//*
+        *//*System.out.println("intç±»å‹çš„é»˜è®¤å€¼æ˜¯"+i+"charç±»å‹çš„é»˜è®¤å€¼æ˜¯"+j);*//*
 
     }*/
 
     /**
-     * ½â´ğ£ºÔÚÒÔÉÏµÄÊµÑéÖĞ£¬·¢ÏÖÏÖÔÚµÄideaÊÇ´úÓĞ¼ì²â»úÖÆµÄ£¬ÓÚÊÇÎÒ´òËãÓÃjavacºÍjavaÕâĞ©¹¤¾ßÀ´²âÊÔÒ»ÏÂ
-     * ·¢ÏÖ´íÎó 18ĞĞ£º±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û ¾­¹ıÒ»·¬µ÷ÊÔ »¹ÊÇÃ»ÓĞ½â¾ö
-     * ÄÇÃ´ ÔÛ´ò¸ö¶Ïµã¿´¿´Ä¬ÈÏÖµ¾ÍºÃÁË oho nerver used
-     * ÊÇ²»ÊÇjdk°æ±¾²»¶ÔÄØ£¿»¹ÊÇÎÒĞ´µÄ´úÂë²»¶ÔÄØ£¿
+     * è§£ç­”ï¼šåœ¨ä»¥ä¸Šçš„å®éªŒä¸­ï¼Œå‘ç°ç°åœ¨çš„ideaæ˜¯ä»£æœ‰æ£€æµ‹æœºåˆ¶çš„ï¼Œäºæ˜¯æˆ‘æ‰“ç®—ç”¨javacå’Œjavaè¿™äº›å·¥å…·æ¥æµ‹è¯•ä¸€ä¸‹
+     * å‘ç°é”™è¯¯ 18è¡Œï¼šç¼–ç GBKçš„ä¸å¯æ˜ å°„å­—ç¬¦ ç»è¿‡ä¸€ç•ªè°ƒè¯• è¿˜æ˜¯æ²¡æœ‰è§£å†³
+     * é‚£ä¹ˆ å’±æ‰“ä¸ªæ–­ç‚¹çœ‹çœ‹é»˜è®¤å€¼å°±å¥½äº† oho nerver used
+     * æ˜¯ä¸æ˜¯jdkç‰ˆæœ¬ä¸å¯¹å‘¢ï¼Ÿè¿˜æ˜¯æˆ‘å†™çš„ä»£ç ä¸å¯¹å‘¢ï¼Ÿ
      */
 
-    //ÍøÉÏÕÒ¸ö²Î¿¼µÄ´úÂë ¿´À´ÕâÀïÃæµÄ²âÊÔ»¹ÊÇÓĞÄÑ¶È°¡
+    //ç½‘ä¸Šæ‰¾ä¸ªå‚è€ƒçš„ä»£ç  çœ‹æ¥è¿™é‡Œé¢çš„æµ‹è¯•è¿˜æ˜¯æœ‰éš¾åº¦å•Š
     int i;
     char c;
     public  int getInt(){
@@ -37,15 +37,15 @@ public class Test01 {
         return c;
     }
     public static void main(String[] args) {
-        System.out.println("IntÄ¬ÈÏÖµ:"+new Test01().getInt());
-        System.out.println("charÄ¬ÈÏÖµ:"+new Test01().getChar());
+        System.out.println("Inté»˜è®¤å€¼:"+new Test01().getInt());
+        System.out.println("charé»˜è®¤å€¼:"+new Test01().getChar());
     }
 
     /**
-     * ²âÊÔ½á¹û£º
+     * æµ‹è¯•ç»“æœï¼š
      * "C:\Program Files\Java\jdk1.7.0_80\bin\java.exe" "-javaagent:D:\CoderSoftware\Java\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar=50304:D:\CoderSoftware\Java\IntelliJ IDEA 2018.2.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;E:\CodeFile\ThinkInJavaTest\out\production\do" unit2.Test01
-     * IntÄ¬ÈÏÖµ:0
-     * charÄ¬ÈÏÖµ:
+     * Inté»˜è®¤å€¼:0
+     * charé»˜è®¤å€¼:
      *
      * Process finished with exit code 0
      *
